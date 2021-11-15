@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">finallApp</string>
+    <string name="tariffs">Тарифы Интернет</string>
+    <string name="tv_channels">ТВ Каналы</string>
 </resources>
