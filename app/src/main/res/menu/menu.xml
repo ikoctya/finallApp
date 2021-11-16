@@ -3,12 +3,15 @@
 
     <item
         android:id="@+id/menu_tariffs"
-        android:title="@string/tariffs"
         android:icon="@drawable/inet"
-        />
+        android:title="@string/tariffs" />
     <item
         android:id="@+id/menu_tv"
-        android:title="@string/tv_channels"
         android:icon="@drawable/tv"
-        />
+        android:title="@string/tv_channels" />
+
+    <item
+        android:id="@+id/menu_contacts"
+        android:icon="@drawable/contacts"
+        android:title="@string/contacts" />
 </menu>

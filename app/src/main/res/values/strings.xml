@@ -2,4 +2,7 @@
     <string name="app_name">finallApp</string>
     <string name="tariffs">Тарифы Интернет</string>
     <string name="tv_channels">ТВ Каналы</string>
+    <string name="contacts">Контакты</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
