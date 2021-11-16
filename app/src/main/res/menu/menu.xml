@@ -11,6 +11,4 @@
         android:title="@string/tv_channels"
         android:icon="@drawable/tv"
         />
-
-
 </menu>
