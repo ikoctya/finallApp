@@ -24,11 +24,9 @@ class Tariffs : Fragment() {
     ): View? {
 
         val view = inflater.inflate(R.layout.fragment_tariffs, container, false)
-
         val cardsRecyclerView: RecyclerView = view.findViewById(R.id.my_recycler)
         cardsRecyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         cardsRecyclerView.adapter = MyAdapter(tariffList)
-
         return view
     }
 

@@ -10,12 +10,10 @@ class MyAdapter(private val tariffList: List<SrcPicture>): RecyclerView.Adapter<
             .inflate(R.layout.card_tariffs,parent,false)
         return MyViewHolder(cardView)
     }
-
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val banner = tariffList[position]
         holder.bind(banner)
     }
-
     override fun getItemCount(): Int {
         return tariffList.size
     }
